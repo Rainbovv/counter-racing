@@ -40,7 +40,7 @@ public class CounterRacingSimple {
             }
         });
 
-        // 4) They run simultaneously.
+        // 4) They run simultaneously (concurrent threads)
         t1.start();
         t2.start();
     }
